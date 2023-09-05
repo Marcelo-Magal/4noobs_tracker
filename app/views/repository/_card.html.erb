@@ -6,7 +6,7 @@
 
     <div>
       <% repository.issues.each do |issue| %>
-        <div class="flex flex-row flex-items-start gap-2 mb-8">
+        <div class="flex flex-row flex-items-start gap-2 mb-8" style="width: 100%;">
           <%= icon issue.issue_type %>
           <div class="flex flex-col">
             <a href="<%= issue.url %>" class="font-size-5 color-black hover-underline no-underline">
